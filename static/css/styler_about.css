@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    color: white;
+}
+#main {
+    background-image: url(../images/WhatsApp\ Image\ 2023-11-21\ at\ 15.31.25_3539c63d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+header {
+    text-align: center;
+    background-color: black;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+header h1 {
+    display: inline;
+}
+nav {
+    background-color: aqua;
+    padding: 5px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    font-size: x-large;
+    padding: 0 10px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: solid underline blue;
+    color: blue;
+}
+nav a:visited{
+    color: rgb(248, 179, 4);
+} 
+nav a:active {
+    color: rgb(8, 248, 8);
+}
+#content {
+    text-align: center;
+}
+
+#text{
+    background-color: rgba( 255, 255, 255, 0.5);
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+#Services{
+    background-color: rgba( 255, 255, 255, 0.5);
+    color: black;
+    margin: 20px 10px;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 20px;
+}
+button {
+    padding: 5px 15px;
+    background-color: black;
+    margin: 10px;
+    border: 2px inset white;
+}
+.arrow {
+    font-size: 32px; /* Change the font size to your desired value */
+    color: red; /* Change the color to red or any other color you prefer */
+    margin: 0;
+    cursor: pointer;
+}
+#contact p {
+    font-size: 1.6em;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    background-color: hsla(0, 94%, 50%, 0.297);
+    color: white;
+}

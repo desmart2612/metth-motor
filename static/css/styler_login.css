@@ -1,0 +1,39 @@
+body {
+    background-image: url(../images/honda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: large;
+}
+label {
+    font-weight: bold;
+}
+input:hover {
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: solid underline black;
+}
+button {
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+button a {
+    text-decoration: none;
+    color: black;
+}

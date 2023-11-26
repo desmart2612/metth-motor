@@ -1,0 +1,104 @@
+body {
+    color: white;
+    margin: 0;
+    background-color: black;
+}
+.container{
+    max-width: 100%;
+}
+header {
+    text-align: center;
+    background-color: black;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+header h1 {
+    display: inline;
+}
+nav {
+    background-color: aqua;
+    padding: 5px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    font-size: larger;
+    padding: 0 10px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: solid underline blue;
+    color: blue;
+}
+nav a:visited{
+    color: rgb(248, 179, 4);
+} 
+nav a:active {
+    color: rgb(8, 248, 8);
+}
+#main {
+    background-image: url(../images/WhatsApp\ Image\ 2023-11-21\ at\ 15.34.15_fb04eef0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#main .content{
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#main .content div{
+    background-color: rgba( 0, 0, 0, 0.8);
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    font-size: large;
+    transition: 0.7s ease-in-out;
+}
+#main .content div:hover {
+    opacity: 1;
+    font-size: larger;
+}
+strong {
+    font-size: large;
+    color: rgb(0, 255, 0);
+}
+button {
+    padding: 0 15px;
+    background-color: black;
+    margin: 10px;
+    border: 2px inset white;
+    height: 50px;
+}
+.arrow {
+    font-size: 32px; /* Change the font size to your desired value */
+    color: red; /* Change the color to red or any other color you prefer */
+    margin: 0;
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    background-color: hsla(0, 94%, 50%, 0.297);
+    color: white;
+}

@@ -1,0 +1,82 @@
+body {
+    color: white;
+    margin: 0;
+    background-image: url(../images/WhatsApp\ Image\ 2023-11-22\ at\ 17.10.16_e8c9755f.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 800px;
+    background-position: center;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+header h1 {
+    display: inline;
+}
+nav {
+    background-color: rgb(214, 2, 2);
+    padding: 5px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    font-size: larger;
+    padding: 0 10px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: solid underline blue;
+    color: blue;
+}
+nav a:visited{
+    color: rgb(255, 255, 255);
+} 
+nav a:active {
+    color: rgb(8, 248, 8);
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content{
+    font-weight: lighter;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px;
+}
+#content1 {
+    margin-top: 20px;
+    width: 230px;
+}
+#content1 h3{
+    color: rgb(214, 2, 2);
+}
+#content2 {
+    margin: 0px;
+    width: 230px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: hsla(0, 0%, 0%, 0.702);
+    color: white;
+}
